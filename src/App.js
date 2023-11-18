@@ -3,15 +3,18 @@ import "./App.css";
 import Row from "./Row";
 import requests from "./request";
 import Banner from "./Banner";
-import Nav from "./Nav";
+//import Nav from "./Nav";
+import Sidebar from "./Sidebar.js";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Banner />
+       <Sidebar/>
       
-      <Row title="Trending NOW" fetchURL={requests.fetchTrending} />
+      <Banner />
+      <br />
+      <br />
+      <Row  />
       
       
     </div>

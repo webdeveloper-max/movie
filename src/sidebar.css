@@ -1,0 +1,19 @@
+.mysidenav{
+  background-color: rgba(9, 8, 8, 0) !important;
+
+  width:10px !important ;
+   height: 20px !important;
+  margin-left: -7px !important;
+   font-size: 25px !important;
+   font-weight: bold !important;
+   
+
+   
+}
+.hover:hover{
+  background-color: rgba(151, 128, 245, 0.452) !important;
+  border-radius: 10px !important;
+}
+.toggle{
+  background-image: url("./icons/https_specials-2.png")!important;
+}

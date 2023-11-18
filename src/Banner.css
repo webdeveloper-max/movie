@@ -1,10 +1,14 @@
 .banner {
   color: white;
   object-fit: contain;
-  height: 448px;
+  height: 500px;
+  margin-left: 50px;
+  margin-right: 35px;
+  margin-bottom:-35px; ;
 }
 .banner__contents {
   margin-left: 30px;
+  
   padding-top: 140px;
   height: 190px;
 }
@@ -19,7 +23,7 @@
   padding-top: 1rem;
   font-size: 0.8rem;
   max-width: 360px;
-  height: 80px;
+  height: 90px;
 }
 
 .banner__button {
@@ -28,10 +32,11 @@
   outline: none;
   border: none;
   font-weight: 700;
-  border-radius: 0.2vw;
+  border-radius: 4vw;
   padding: 0.5rem 2rem 0.5rem 2rem;
   margin-right: 1rem;
-  background-color: rgba(51, 51, 51, 0.5);
+  margin-left: 20px;
+  background-color: rgba(39, 65, 255, 0.5);
 }
 
 .banner__button:hover {
@@ -40,12 +45,12 @@
   transition: all 0.2s;
 }
 
-.banner--fadeBottom {
+ .banner--fadeBottom {
   height: 0.0rem;
   background-image: linear-gradient(
     180deg,
     transparent,
     rgba(37, 37, 37, 0.61),
     #111
-  );
+  ); 
 }

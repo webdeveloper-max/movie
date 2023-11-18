@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 import axios from "./axios";
 import requests from "./request";
 import "./Banner.css";
@@ -40,20 +41,21 @@ function Banner() {
       }}
     >
       <div className="banner__contents">
-        {/* title or name or original_name whichever is available will be used*/}
+       
         <h1 className="banner__title">
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
-        {/* two buttons */}
-        <div className="banner__buttons">
-          <button className="banner__button">Play</button>
-          <button className="banner__button">More info</button>
-        </div>
+        
         {/* description */}
         <h1 className="banner__description">
           {truncate(movie?.overview, 150)}
         </h1>
       </div>
+      {/* two buttons */}
+      <div className="banner__buttons">
+          <button className="banner__button">Play</button>
+          <button className="banner__button">More info</button>
+        </div>
       <div className="banner--fadeBottom"></div>
     </header>
   );
