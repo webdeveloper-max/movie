@@ -17,7 +17,7 @@ function Sidebar() {
   className="mysidenav"
   >
     <SideNav.Toggle className="toggle" />
-    <SideNav.Nav >
+    <SideNav.Nav className="black" >
      <NavItem className="hover">
 <NavIcon ><img src= { require ('./icons/ICON - Search.png').default}/></NavIcon>
 <NavText >Search</NavText>
@@ -25,7 +25,7 @@ function Sidebar() {
 
       </NavItem> 
       <NavItem className="hover"> 
-<NavIcon><img src= { require ('./icons/Group 46.png').default}/></NavIcon>
+<NavIcon ><img src= { require ('./icons/Group 46.png').default}/></NavIcon>
 <NavText>Home</NavText>
 
 
@@ -74,7 +74,7 @@ function Sidebar() {
 
 
       </NavItem>
-      
+     
       
       
     </SideNav.Nav>

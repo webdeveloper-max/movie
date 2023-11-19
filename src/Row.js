@@ -39,7 +39,7 @@ export default class Responsive extends Component {
     };
     return (
       <div>
-        <p className="p"> Trending Now </p>
+        <h4 className="p"> Trending Now </h4>
         <Slider className="slider"{...settings}>
           <div>
          <a href="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" ><img src= { require ('./icons/https_specials-8.png').default}/></a>

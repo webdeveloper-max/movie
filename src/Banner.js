@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import { IoIosPlay } from "react-icons/io";
 import axios from "./axios";
 import requests from "./request";
 import "./Banner.css";
@@ -53,7 +53,7 @@ function Banner() {
       </div>
       {/* two buttons */}
       <div className="banner__buttons">
-          <button className="banner__button">Play</button>
+          <button className="banner__button" ><IoIosPlay />Play</button>
           <button className="banner__button">More info</button>
         </div>
       <div className="banner--fadeBottom"></div>
