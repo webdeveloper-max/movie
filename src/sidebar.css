@@ -16,9 +16,10 @@ line-height: 30px!important;
   padding-top: 10px!important;
 }
 .black{
-  background-color:rgb(14, 14, 16)!important;
+  background-color:rgb(14, 14, 16, 0.8)!important;
   opacity: 80 !important;
   line-height: 38px!important;
+ 
   
 } 
 .circle{
